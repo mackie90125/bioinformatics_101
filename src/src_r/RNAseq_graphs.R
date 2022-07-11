@@ -1,5 +1,5 @@
 ###############################################################################################
-### manipulate gene expression data
+### manipulate and graph gene expression data
 ###
 ### data in csv file has already been processed from raw reads to fpkm
 ###############################################################################################
