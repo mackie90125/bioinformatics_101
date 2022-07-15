@@ -52,3 +52,6 @@ echo "featureCounts finished"
 
 duration=$SECONDS
 echo "$(($duration / 60)) minutes and $(($duration % 60)) seconds elapsed."
+
+# preview counts file
+cat quants/demo_featurecounts.txt | cut -f1,7 | head
